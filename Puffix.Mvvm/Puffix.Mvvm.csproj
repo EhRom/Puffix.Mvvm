@@ -13,6 +13,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <RepositoryType>MVVM Puffix Framework Xamarin</RepositoryType>
     <PackageReleaseNotes>MVVMframework implementation.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
