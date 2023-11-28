@@ -1,8 +1,7 @@
-﻿namespace Puffix.Mvvm.ViewModels
-{
-    /// <summary>
-    /// Contrat de base pour les vue-modèles.
-    /// </summary>
-    public interface IViewModel
-    { }
-}
+﻿namespace Puffix.Mvvm.ViewModels;
+
+/// <summary>
+/// Base contract for view-models.
+/// </summary>
+public interface IViewModel
+{ }

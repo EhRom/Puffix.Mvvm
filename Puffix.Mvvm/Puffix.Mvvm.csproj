@@ -1,41 +1,41 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-	  <TargetFrameworks>netstandard2.0;netstandard2.1;net6.0</TargetFrameworks>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
-    <Company>Puffix.io - Romain Ehret</Company>
-    <Authors>Puffix.io - Romain Ehret</Authors>
-    <Description>Simple MVVM pattern implentation and helper classes for applications with UI.</Description>
-    <Copyright>Copyright 2021 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
-    <PackageLicenseFile>Licence.txt</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/EhRom/Puffix.Mvvm</PackageProjectUrl>
-    <PackageIcon>icon.png</PackageIcon>
-    <RepositoryType>MVVM Puffix Framework Xamarin</RepositoryType>
-    <PackageReleaseNotes>MVVMframework implementation.</PackageReleaseNotes>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <FileVersion>2.0.0.0</FileVersion>
-    <Version>2.0.0</Version>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+		<Company>Puffix.io - Romain Ehret</Company>
+		<Authors>Puffix.io - Romain Ehret</Authors>
+		<Description>Simple MVVM pattern implentation and helper classes for applications with UI.</Description>
+		<Copyright>Copyright 2023 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
+		<PackageLicenseFile>Licence.txt</PackageLicenseFile>
+		<PackageProjectUrl>https://github.com/EhRom/Puffix.Mvvm</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<RepositoryType>MVVM Puffix Framework Xamarin</RepositoryType>
+		<PackageReleaseNotes>MVVMframework implementation.</PackageReleaseNotes>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyVersion>3.2.0.0</AssemblyVersion>
+		<FileVersion>3.2.0.0</FileVersion>
+		<Version>3.2.0</Version>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0|AnyCPU'">
+		<WarningLevel>4</WarningLevel>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <None Include="..\Ressources\icon.png">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-    <None Include="Licence.txt">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\Ressources\icon.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+		<None Include="Licence.txt">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
 
 </Project>

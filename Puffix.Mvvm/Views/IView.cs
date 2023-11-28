@@ -1,10 +1,9 @@
 ﻿using System.ComponentModel;
 
-namespace Puffix.Mvvm.Views
-{
-    /// <summary>
-    /// Contrat de base pour les vue-modèles.
-    /// </summary>
-    public interface IView : INotifyPropertyChanged
-    { }
-}
+namespace Puffix.Mvvm.Views;
+
+/// <summary>
+/// Base contract for views.
+/// </summary>
+public interface IView : INotifyPropertyChanged
+{ }

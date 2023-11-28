@@ -1,8 +1,7 @@
-﻿namespace Puffix.Mvvm.Models
-{
-    /// <summary>
-    /// Contrat de base pour les modèles.
-    /// </summary>
-    public interface IModel
-    { }
-}
+﻿namespace Puffix.Mvvm.Models;
+
+/// <summary>
+/// Base contract for models.
+/// </summary>
+public interface IModel
+{ }
