@@ -4,12 +4,7 @@
 /// Publish / Subscribe router event argument
 /// </summary>
 /// <typeparam name="T">Event arguments type</typeparam>
-public class PubSubRouterEventArgs<T>
+public class PubSubRouterEventArgs<T>(T item)
 {
-    public T Item { get; set; }
-
-    public PubSubRouterEventArgs(T item)
-    {
-        Item = item;
-    }
+    public T Item { get; set; } = item;
 }
