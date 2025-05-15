@@ -10,5 +10,5 @@ public class GenericEventArgs<EventArgsT>(EventArgsT eventArgValue) : EventArgs
     /// <summary>
     /// Valeur de l'argument.
     /// </summary>
-    public EventArgsT EventArgValue { get; } = eventArgValue
+    public EventArgsT EventArgValue { get; } = eventArgValue;
 }
