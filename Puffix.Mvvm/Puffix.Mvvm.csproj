@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
 		<Company>Puffix.io - Romain Ehret</Company>
@@ -11,12 +11,12 @@
 		<PackageLicenseFile>Licence.txt</PackageLicenseFile>
 		<PackageProjectUrl>https://github.com/EhRom/Puffix.Mvvm</PackageProjectUrl>
 		<PackageIcon>icon.png</PackageIcon>
-		<RepositoryType>MVVM Puffix Framework Xamarin</RepositoryType>
+		<RepositoryType>MVVM Puffix Framework MAUI</RepositoryType>
 		<PackageReleaseNotes>MVVMframework implementation.</PackageReleaseNotes>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<AssemblyVersion>3.3.1.0</AssemblyVersion>
-		<FileVersion>3.3.1.0</FileVersion>
-		<Version>3.3.1</Version>
+		<AssemblyVersion>10.0.0.0</AssemblyVersion>
+		<FileVersion>10.0.0.0</FileVersion>
+		<Version>10.0.0</Version>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">

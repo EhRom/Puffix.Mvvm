@@ -8,7 +8,6 @@ public interface IPubSubMessage
     string Route { get; }
 }
 
-
 public interface IPubSubMessage<ValueT> : IPubSubMessage
 {
     ValueT Value { get; }
