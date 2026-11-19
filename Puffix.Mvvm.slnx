@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/GithubBuild/">
+    <File Path=".github/workflows/dotnet.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="README.md" />
+  </Folder>
+  <Project Path="Puffix.Mvvm/Puffix.Mvvm.csproj" />
+</Solution>
