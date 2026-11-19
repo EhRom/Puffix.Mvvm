@@ -1,22 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+		<TargetFrameworks>net8.0;net10.0;net11.0</TargetFrameworks>
 		<SignAssembly>true</SignAssembly>
 		<AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
 		<Company>Puffix.io - Romain Ehret</Company>
 		<Authors>Puffix.io - Romain Ehret</Authors>
 		<Description>Simple MVVM pattern implentation and helper classes for applications with UI.</Description>
-		<Copyright>Copyright 2025 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
+		<Copyright>Copyright 2026 (c) Puffix / Romain Ehret. All rights reserved.</Copyright>
 		<PackageLicenseFile>Licence.txt</PackageLicenseFile>
 		<PackageProjectUrl>https://github.com/EhRom/Puffix.Mvvm</PackageProjectUrl>
 		<PackageIcon>icon.png</PackageIcon>
 		<RepositoryType>MVVM Puffix Framework MAUI</RepositoryType>
 		<PackageReleaseNotes>MVVMframework implementation.</PackageReleaseNotes>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<AssemblyVersion>10.0.0.0</AssemblyVersion>
-		<FileVersion>10.0.0.0</FileVersion>
-		<Version>10.0.0</Version>
+		<AssemblyVersion>11.0.0.0</AssemblyVersion>
+		<FileVersion>11.0.0.0</FileVersion>
+		<Version>11.0.0</Version>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0|AnyCPU'">
